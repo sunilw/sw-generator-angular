@@ -1,0 +1,29 @@
+@import "compass/reset"
+
+body
+  background-color: #cdcdcd 
+
+h1, h2, h3, h4
+  font-family: 'Open Sans', sans-serif
+  color: #4d4d4d
+
+p
+  font-family: 'Open Sans', sans-serif 
+  color: #4d4d4d
+
+
+/*****************************************************/
+/*   media query extentions begin below...           */
+/*****************************************************/
+
+/*****************************************************/
+/* Detect tablet size and include appropriate styles */
+/*****************************************************/
+@media all and (min-width: 768px) 
+  @import "tablet"
+
+/*****************************************************/
+/* Detect tablet size and include appropriate styles */
+/*****************************************************/
+@media all and (min-width: 960px) 
+  @import "desktop"
