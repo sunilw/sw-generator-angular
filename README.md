@@ -14,7 +14,6 @@ extensions like firesass.
 This project can be used for scaffolding for test cases or substantial static 
 sites.
 
-
 ## Deps
 
 You will need yeoman, grunt and bower.
@@ -28,8 +27,10 @@ You will need yeoman, grunt and bower.
 	  * grunt-concurrent
 
 
-Bower will automatically install these for you when you run 'yo simplesite'.
+These will be automatically installed  for you when you run 'yo simplesite'.
 You also need sass and compass installed.
+
+You will need to be running compass
 
 ## Recent Changes
 

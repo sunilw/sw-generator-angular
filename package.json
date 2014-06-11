@@ -3,9 +3,7 @@
     "version"       : "0.1.0",
     "description"   : "A generator for Yeoman",
     "author"        : "Sunil Williams",
-    "keywords": [
-        "yeoman-generator"
-    ],
+    "keywords": ["yeoman-generator"],
     "homepage": "https://github.com/sunilw/generator-simplesite",
     "bugs": "https://github.com/sunilw/generator-simplesite/issues",
     "author": {

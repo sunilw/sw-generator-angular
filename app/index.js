@@ -10,8 +10,9 @@ var SimplesiteGenerator = module.exports = function SimplesiteGenerator(args, op
     this.on('end', function () {
         this.installDependencies({ skipInstall: options['skip-install'] });
     });
-
+    
     this.pkg = JSON.parse(this.readFileAsString(path.join(__dirname, '../package.json')));
+    
 };
 
 util.inherits(SimplesiteGenerator, yeoman.generators.Base);
@@ -28,8 +29,6 @@ SimplesiteGenerator.prototype.askFor = function askFor() {
     }];
 
     this.prompt(prompts, function (props) {
-        this.someOption = props.someOption;
-
         cb();
     }.bind(this));
 };
@@ -43,7 +42,7 @@ SimplesiteGenerator.prototype.app = function app() {
     this.mkdir('sass');
 
     // put our templates in place
-    this.template('index.html', 'index.html') ;
+    this.template('index.php', 'index.php') ;
     this.template('Gruntfile.js', 'Gruntfile.js') ;
     this.template('config.rb', 'config.rb') ;
     this.template('site.sass', 'sass/site.sass') ;
@@ -58,6 +57,6 @@ SimplesiteGenerator.prototype.app = function app() {
 
 
 SimplesiteGenerator.prototype.projectfiles = function projectfiles() {
-    this.copy('editorconfig', '.editorconfig');
     this.copy('jshintrc', '.jshintrc');
 };
+
