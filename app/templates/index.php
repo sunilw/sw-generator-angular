@@ -10,8 +10,8 @@
     <link rel="stylesheet" type="text/css"  href="/css/site.css" />
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
 
-    <script type="text/javascript" src="/bower_components/jquery2/dist/jquery.js></script>
-    <script type="text/javascript" src="/bower_components/angular/angular.js></script>
+    <script type="text/javascript" src="bower_components/jquery2/dist/jquery.js"></script>
+    <script type="text/javascript" src="bower_components/angular/angular.js"></script>
     <script type="text/javascript" src="/js/site.js"></script>
     
   </head>
@@ -20,7 +20,7 @@
     <div id="outer-wrapper">
 
       <section id="main-content">
-        <header id="page-header">
+        <header id="page-header">	  
           <h1>In Index</h1>
         </header>  <!-- page-header ends -->
 
