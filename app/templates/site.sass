@@ -1,7 +1,6 @@
 @import "compass/reset"
-@import "bower_components/bourbon/dist/_bourbon"
-@import "bower_components/neat/app/assets/stylesheets/neat"
-@import "compass/reset"
+@import "bourbon/bourbon"
+@import "neat/neat"
 
 body
   background-color: #cdcdcd 
@@ -9,12 +8,25 @@ body
 h1, h2, h3, h4
   font-family: 'Open Sans', sans-serif
   color: #4d4d4d
-
+  padding-bottom: 24px
+  
 p
   font-family: 'Open Sans', sans-serif 
   color: #4d4d4d
 
+.inner-row
+  @include outer-container()
+  width: 98%
+  max-width: 1000px
 
+#outer-wrapper
+  background: #eaeaea
+  padding-bottom: 24px
+  
+header#page-header
+  padding-top: 24px
+
+  
 /*****************************************************/
 /*   media query extentions begin below...           */
 /*****************************************************/
