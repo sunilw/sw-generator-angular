@@ -19,13 +19,21 @@
     <div id="outer-wrapper">
 
       <section id="main-content">
-        <header id="page-header">	  
-          <h1>In Index</h1>
+        <header id="page-header">
+          <div class="inner-row">
+            <h1>In Index</h1>
+	  </div>
         </header>  <!-- page-header ends -->
 
+        <div class="inner-row">
+          <p>In business...</p>
+	</div>
+	
       </section>  <!-- main-content ends -->
 
       <footer id="page-footer">
+        <div class="inner-row">
+	</div>
       </footer>
 
     </div>  <!-- outer-wrapper ends -->
