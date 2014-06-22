@@ -2,21 +2,14 @@
 
 A generator for [Yeoman](http://yeoman.io).
 
-### simplesite
+### sw-angular
 
-Simple website generator. 
-Provides a grunt task for compiling compass/sass on file save, and connecting to 
-the chrome 'livereload' extension.
-
-By default, the compass task generates sass debugging symbols for browser 
-extensions like firesass.
-
-This project can be used for scaffolding for test cases or substantial static 
-sites.
+Simple setup to start playing with angular
 
 ## Deps
 
-You will need yeoman, grunt and bower.
+You will need yeoman, grunt and bower. You will also need bourbon and neat.
+I prefer to install them manually, rather them from bower.
    
    To get this working, you need node.js and npm installed. 
    You need the following modules:
@@ -31,6 +24,8 @@ These will be automatically installed  for you when you run 'yo simplesite'.
 You also need sass and compass installed.
 
 You will need to be running compass
+
+Once you've run 'yo sw-angular', then go into the sass directory and type 'bourbon install' and 'neat install'
 
 ## Recent Changes
 
